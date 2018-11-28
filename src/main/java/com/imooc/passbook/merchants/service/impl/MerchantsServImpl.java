@@ -2,6 +2,7 @@ package com.imooc.passbook.merchants.service.impl;
 
 import com.imooc.passbook.merchants.constant.ErrorCode;
 import com.imooc.passbook.merchants.dao.MerchantsDao;
+import com.imooc.passbook.merchants.entity.Merchants;
 import com.imooc.passbook.merchants.service.IMerchantsServ;
 import com.imooc.passbook.merchants.vo.CreateMerchantsRequest;
 import com.imooc.passbook.merchants.vo.CreateMerchantsResponse;
@@ -51,7 +52,18 @@ public class MerchantsServImpl implements IMerchantsServ {
 
     @Override
     public Response buildMerchantsInfoById(Integer id) {
-        return null;
+
+        Response response = new Response();
+
+        Merchants merchants = merchantsDao.findById(id);
+        if (null == merchants) {
+            response.setErrorCode(ErrorCode.MERCHANTS_NOT_EXIST.getCode());
+            response.setErrorMsg(ErrorCode.MERCHANTS_NOT_EXIST.getDesc());
+        }
+
+        response.setData(merchants);
+
+        return response;
     }
 
     @Override

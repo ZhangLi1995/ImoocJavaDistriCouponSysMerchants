@@ -42,3 +42,66 @@
 2018-11-28 11:11:16.652  INFO 14860 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
 2018-11-28 11:11:16.652  INFO 14860 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
 2018-11-28 11:11:16.653  INFO 14860 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-11-28 20:11:24.881  INFO 13156 --- [main] c.i.p.m.service.MerchantsServTest        : Starting MerchantsServTest on ZhangLi with PID 13156 (started by Lenovo in G:\Java\IDEA_workspace\merchants)
+2018-11-28 20:11:24.883  INFO 13156 --- [main] c.i.p.m.service.MerchantsServTest        : No active profile set, falling back to default profiles: default
+2018-11-28 20:11:24.907  INFO 13156 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@67f639d3: startup date [Wed Nov 28 20:11:24 CST 2018]; root of context hierarchy
+2018-11-28 20:11:26.327  INFO 13156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$b50962f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-28 20:11:27.490  INFO 13156 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-11-28 20:11:27.507  INFO 13156 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-28 20:11:27.586  INFO 13156 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-11-28 20:11:27.588  INFO 13156 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-11-28 20:11:27.590  INFO 13156 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-11-28 20:11:27.631  INFO 13156 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-11-28 20:11:27.842  INFO 13156 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-28 20:11:28.303  INFO 13156 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-28 20:11:29.068  INFO 13156 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-11-28 20:11:29.081  INFO 13156 --- [main] c.i.p.m.service.MerchantsServTest        : Started MerchantsServTest in 4.805 seconds (JVM running for 5.817)
+2018-11-28 20:11:29.171  INFO 13156 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-11-28 20:11:29.627  INFO 13156 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@67f639d3: startup date [Wed Nov 28 20:11:24 CST 2018]; root of context hierarchy
+2018-11-28 20:11:29.628  INFO 13156 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-11-28 20:11:29.629  INFO 13156 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-11-28 20:11:29.631  INFO 13156 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-11-28 20:15:37.429  INFO 11864 --- [main] c.i.p.m.service.MerchantsServTest        : Starting MerchantsServTest on ZhangLi with PID 11864 (started by Lenovo in G:\Java\IDEA_workspace\merchants)
+2018-11-28 20:15:37.430  INFO 11864 --- [main] c.i.p.m.service.MerchantsServTest        : No active profile set, falling back to default profiles: default
+2018-11-28 20:15:37.463  INFO 11864 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6253c26: startup date [Wed Nov 28 20:15:37 CST 2018]; root of context hierarchy
+2018-11-28 20:15:38.973  INFO 11864 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$4c7c71da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-28 20:15:40.103  INFO 11864 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-11-28 20:15:40.119  INFO 11864 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-28 20:15:40.184  INFO 11864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-11-28 20:15:40.186  INFO 11864 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-11-28 20:15:40.190  INFO 11864 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-11-28 20:15:40.228  INFO 11864 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-11-28 20:15:40.428  INFO 11864 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-28 20:15:40.844  INFO 11864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-28 20:15:41.576  INFO 11864 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-11-28 20:15:41.586  INFO 11864 --- [main] c.i.p.m.service.MerchantsServTest        : Started MerchantsServTest in 4.666 seconds (JVM running for 5.698)
+2018-11-28 20:15:41.660  INFO 11864 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-11-28 20:15:41.927  INFO 11864 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6253c26: startup date [Wed Nov 28 20:15:37 CST 2018]; root of context hierarchy
+2018-11-28 20:15:41.931  INFO 11864 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-11-28 20:15:41.932  INFO 11864 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-11-28 20:15:41.934  INFO 11864 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-11-28 20:17:13.775  INFO 16016 --- [main] c.i.p.m.service.MerchantsServTest        : Starting MerchantsServTest on ZhangLi with PID 16016 (started by Lenovo in G:\Java\IDEA_workspace\merchants)
+2018-11-28 20:17:13.775  INFO 16016 --- [main] c.i.p.m.service.MerchantsServTest        : No active profile set, falling back to default profiles: default
+2018-11-28 20:17:13.816  INFO 16016 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6253c26: startup date [Wed Nov 28 20:17:13 CST 2018]; root of context hierarchy
+2018-11-28 20:17:15.148  INFO 16016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$a9f3a957] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-28 20:17:16.300  INFO 16016 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-11-28 20:17:16.316  INFO 16016 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-28 20:17:16.384  INFO 16016 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-11-28 20:17:16.385  INFO 16016 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-11-28 20:17:16.387  INFO 16016 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-11-28 20:17:16.425  INFO 16016 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-11-28 20:17:16.615  INFO 16016 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-28 20:17:17.022  INFO 16016 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-28 20:17:17.755  INFO 16016 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-11-28 20:17:17.764  INFO 16016 --- [main] c.i.p.m.service.MerchantsServTest        : Started MerchantsServTest in 4.627 seconds (JVM running for 5.672)
+2018-11-28 20:17:17.831  INFO 16016 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-11-28 20:17:18.071  INFO 16016 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6253c26: startup date [Wed Nov 28 20:17:13 CST 2018]; root of context hierarchy
+2018-11-28 20:17:18.074  INFO 16016 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-11-28 20:17:18.075  INFO 16016 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-11-28 20:17:18.076  INFO 16016 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
