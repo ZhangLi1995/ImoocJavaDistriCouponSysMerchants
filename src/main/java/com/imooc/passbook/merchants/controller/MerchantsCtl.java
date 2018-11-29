@@ -41,6 +41,9 @@ public class MerchantsCtl {
         return merchantsServ.buildMerchantsInfoById(id);
     }
 
+    /** {"background":1,"desc":"详情: 慕课 second","end":1544276206053,"hasToken":false,"id":19,
+     * "limit":1000,"start":1543412206053,"summary":"简介: 慕课","title":"title: 慕课"}
+     */
     @ResponseBody
     @PostMapping("/drop")
     public Response dropPassTemplate(@RequestBody PassTemplate passTemplate) {

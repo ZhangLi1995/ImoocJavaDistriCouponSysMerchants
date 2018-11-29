@@ -33,7 +33,7 @@ public class AutoCheckInterceptor implements HandlerInterceptor {
 
         AccessContext.setToken(token);
 
-        return false;
+        return true;
     }
 
     @Override
